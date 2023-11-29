@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> products </title>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body > 
+
+    <div class="containerProducts" id="containerDiv"> 
+
+        <div class="header">  
+            
+            <div class="navigate">   
+                <a href="index.html"> Home </a>   
+                <a href="products.html"> Products </a>
+                <a href="about.html"> About </a>  
+            </div>
+          
+            <div class="logo"> 
+                Comfy
+            </div>
+            
+            <div class="cart" id="cartIcon"> 
+                <img src="images/cart.jpg" /> 
+            </div>
+
+        </div>
+
+        <div class="searchPanel" id="searchPanel">
+            <div class="loop" > 
+                <input placeholder="Search..." id="textSearch" /> 
+                <img src="images/loop.png" id="searchLoop" class="imgLoop" > 
+            </div>
+            <div class="panelTexts">  
+                <span class="companyPrice"> Company</span>
+                <button id="All"> All </button>
+                <button id="Ikea"> Ikea </button>
+                <button id="Marcos"> Marcos </button>
+                <button id="Caressa"> Caressa </button>
+                <button id="Liddy"> Liddy </button>
+                <span class="companyPrice"> Price </span>
+                <input type="range" min="0" max="80" value="80" id="inpt"/>
+                <p id="rangeValue" class="show_price"> Value: $80 </p>   
+            </div>
+        </div>
+
+        <div class="galleryBlock" id="mainBlock">
+       
+            <div class="Gallery" id="benjamin1" data-value="10"> 
+
+                <img src="images/High-Back-Bench.jpeg" id="photos1" 
+                alt="images/High-Back-Bench.jpeg" >  
+
+                <div class="hoverBox" id="shouldHover1"> 
+                    <div class="hoverCircle01" id="leftIcon1" >
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02" id="rightIcon1" >
+                        <img src="images/cart.jpg">
+                </div>
+                </div>
+                <div class="captions" id="detTitle1"> High Back Bench </div>
+                <div class="captionsCost" id="detPrice1"> $9.99 </div>
+            </div> 
+        
+
+            <div class="Gallery" id="benjamin2" data-value="80"> 
+                <img src="images/Albany-Table.jpeg" id="photos2"
+                alt="images/Albany-Table.jpeg"> 
+
+                <div class="hoverBox" id="shouldHover2"> 
+                    <div class="hoverCircle01" id="leftIcon2" >
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02"  id="rightIcon2" >
+                        <img src="images/cart.jpg">
+                    </div>
+                </div>
+                <div class="captions" id="detTitle2"> Albany Table </div>
+                <div class="captionsCost" id="detPrice2"> $79.99 </div>
+            </div>
+
+            <div class="Gallery" id="benjamin3" data-value="26"> 
+                <img src="images/Accent-Chair.JPG" id="photos3"
+                alt="images/Accent-Chair.JPG">
+
+                <div class="hoverBox" id="shouldHover3"> 
+                    <div class="hoverCircle01" id="leftIcon3" >
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02"  id="rightIcon3" >
+                        <img src="images/cart.jpg">
+                    </div>
+                </div>
+                <div class="captions" id="detTitle3"> Accent Chair </div>
+                <div class="captionsCost" id="detPrice3"> $25.99 </div>
+             </div>
+
+            <div class="Gallery" id="benjamin4" data-value="46"> 
+                <img src="images/Wooden-Table.jpeg" id="photos4" 
+                alt="images/Wooden-Table.jpeg">
+
+                <div class="hoverBox" id="shouldHover4"> 
+                    <div class="hoverCircle01" id="leftIcon4" >
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02" id="rightIcon4" >
+                        <img src="images/cart.jpg">
+                    </div>
+                </div>
+                <div class="captions" id="detTitle4"> Wooden Table </div>
+                <div class="captionsCost" id="detPrice4"> $45.99 </div>
+             </div>
+
+            <div class="Gallery" id="benjamin5" data-value="7"> 
+                <img src="images/Dining-Table.JPG" id="photos5"
+                alt="images/Dining-Table.JPG">
+
+                <div class="hoverBox" id="shouldHover5"> 
+                    <div class="hoverCircle01" id="leftIcon5">
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02" id="rightIcon5">
+                        <img src="images/cart.jpg">
+                    </div>
+                </div>
+                <div class="captions" id="detTitle5"> Dining Table </div>
+                <div class="captionsCost" id="detPrice5"> $6.99 </div>
+             </div>
+
+
+            <div class="Gallery" id="benjamin6" data-value="70"> 
+                <img src="images/Sofa-Set.jpeg" id="photos6" 
+                alt="images/Sofa-Set.jpeg">
+                <div class="hoverBox" id="shouldHover6"> 
+                    <div class="hoverCircle01" id="leftIcon6" >
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02"  id="rightIcon6">
+                        <img src="images/cart.jpg">
+                    </div>
+                </div>
+                <div class="captions" id="detTitle6"> Sofa Set </div>
+                <div class="captionsCost" id="detPrice6"> $69.99 </div>
+             </div>
+
+
+            <div class="Gallery" id="benjamin7" data-value="9"> 
+
+                <img src="images/Modern-Bookshelf.jpeg" id="photos7" 
+                alt="images/Modern-Bookshelf.jpeg">
+
+                <div class="hoverBox" id="shouldHover7"> 
+                    <div class="hoverCircle01" id="leftIcon7">
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02" id="rightIcon7">
+                        <img src="images/cart.jpg">
+                    </div>
+                </div> 
+                <div class="captions" id="detTitle7"> Modern Bookshelf </div>
+                <div class="captionsCost" id="detPrice7"> $8.99 </div>
+             </div>
+
+
+            <div class="Gallery" id="benjamin8" data-value="22"> 
+                <img src="images/Emperor-Bed.jpeg" id="photos8"
+                alt="images/Emperor-Bed.jpeg">
+
+                <div class="hoverBox" id="shouldHover8"> 
+                    <div class="hoverCircle01" id="leftIcon8">
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02" id="rightIcon8">
+                        <img src="images/cart.jpg">
+                    </div>
+                </div> 
+                <div class="captions" id="detTitle8"> Emperor Bed </div>
+                <div class="captionsCost" id="detPrice8"> $21.99 </div>
+             </div>
+
+            <div class="Gallery" id="benjamin9" data-value="40"> 
+                <img src="images/Utopia-Sofa.JPG" id="photos9"
+                alt="images/Utopia-Sofa.JPG">
+
+                <div class="hoverBox" id="shouldHover9"> 
+                    <div class="hoverCircle01" id="leftIcon9">
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02" id="rightIcon9">
+                        <img src="images/cart.jpg">
+                    </div>
+                </div> 
+                <div class="captions" id="detTitle9"> Utopia Sofa </div>
+                <div class="captionsCost" id="detPrice9"> $39.95 </div> 
+            </div>
+
+            <div class="Gallery" id="benjamin10" data-value="30"> 
+
+                <img src="images/Entertainment-Center.jpeg" id="photos10"
+                alt="images/Entertainment-Center.jpeg">
+
+                <div class="hoverBox" id="shouldHover10"> 
+                    <div class="hoverCircle01" id="leftIcon10">
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02" id="rightIcon10">
+                        <img src="images/cart.jpg">
+                    </div>
+                </div> 
+                <div class="captions" id="detTitle10"> Entertainment Center </div>
+                <div class="captionsCost" id="detPrice10"> $29.98 </div>
+             </div>
+
+            <div class="Gallery" id="benjamin11" data-value="11">
+
+                <img src="images/Albany-Sectional.jpeg" id="photos11" 
+                alt="images/Albany-Sectional.jpeg"> 
+
+                <div class="hoverBox" id="shouldHover11"> 
+                    <div class="hoverCircle01" id="leftIcon11">
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02"  id="rightIcon11">
+                        <img src="images/cart.jpg">
+                    </div>
+                </div> 
+                <div class="captions" id="detTitle11"> Albany Sectional </div>
+                <div class="captionsCost" id="detPrice11"> $10.99 </div>
+            </div>
+
+            <div class="Gallery" id="benjamin12" data-value="60"> 
+                
+                <img src="images/Leather-Sofa.JPG" id="photos12"
+                alt="images/Leather-Sofa.JPG">
+
+                <div class="hoverBox" id="shouldHover12"> 
+                    <div class="hoverCircle01" id="leftIcon12">
+                        <img src="images/search.jpg"> 
+                    </div>
+                    <div class="hoverCircle02"  id="rightIcon12">
+                        <img src="images/cart.jpg">
+                    </div>
+                </div> 
+                <div class="captions" id="detTitle12"> Leather Sofa </div>
+                <div class="captionsCost" id="detPrice12"> $59.99 </div>
+             </div>
+
+        </div>
+
+    </div>
+
+    <div class="lightblueDiv" id="alternativeDiv"> 
+        <span class="ligtblueTxT" id="lightblueSpan"> Home / Products </span> 
+    </div>
+    
+    <div id="cartOn" class="cartPress"> 
+
+        <div id="close" class="esc"> X </div>
+        
+        <div class="bag"> 
+            <h2> Your Bag </h2>
+            <h3> 
+            Note that cart has capacity of 10 items, if u want to add more 
+            first purchase these items
+            </h3>
+        </div> 
+  
+
+        <div id="purchaseInfo" class="purchaseInfo"></div>
+
+        <div class="payment"> 
+            <div class="total" id="totalPrice"> Total 0.00$</div>
+            <div class="checkout" id="checkout"> <button> Purchase & clear </button> </div>
+        </div>
+
+    </div>
+
+
+    <script src="comfy.js"> </script>
+
+   
+
+</body>
+</html>
